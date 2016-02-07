@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #fffefd;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="allfordeal.FXMLController">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+   <children>
+      <SplitPane cache="true" dividerPositions="0.09742120343839542" orientation="VERTICAL" prefHeight="700.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="50.0" prefWidth="998.0" style="-fx-background-color: #76ade7;">
+               <children>
+                  <Button layoutX="179.0" layoutY="13.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #76ade7;" text="Exposer Service" textFill="#fcf9f9">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="389.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #76ade7;" text="Modifier Service" textFill="#fcfcfc">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="578.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #76ade7;" text="Supprimer Service" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="13.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="130.0" style="-fx-background-color: #76ade7;" text="Accueil" textFill="#f8f9fb" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="854.0" AnchorPane.topAnchor="13.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <MenuButton layoutX="795.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #76ade7;" text="Chercher Service" textFill="WHITE">
+                    <items>
+                      <MenuItem mnemonicParsing="false" style="-fx-background-color: #76ade7; -fx-text-fill: #ffffff; -fx-font-size: 15;" text="Recherche par Nom" />
+                        <MenuItem mnemonicParsing="false" style="-fx-background-color: #76ade7; -fx-text-fill: #ffffff; -fx-font-size: 15;" text="Recherche par Categorie" />
+                        <MenuItem mnemonicParsing="false" style="-fx-background-color: #76ade7; -fx-text-fill: #ffffff; -fx-font-size: 15;" text="Recherche par Point" />
+                        <MenuItem mnemonicParsing="false" style="-fx-background-color: #76ade7; -fx-text-fill: #ffffff; -fx-font-size: 15;" text="Recherche par Difficulte" />
+                    </items>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+          <AnchorPane cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="653.0" prefWidth="998.0" style="-fx-background-color: #fffefd;" />
+        </items>
+      </SplitPane>
+   </children>
+  
+</AnchorPane>
